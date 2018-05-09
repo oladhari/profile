@@ -1,0 +1,109 @@
+body{
+  font-family: 'Open Sans', serif;
+  color:#000000;
+  background-color:#F0F2F2;
+}
+h1{
+  font-family: 'Roboto' ,sans-serif;
+  color:#000000;
+  font-size: 2em;
+  padding-top: 50px;
+}
+a{
+  color: #262626;
+  text-decoration: none
+}
+a:hover{
+  color: #736A68;
+}
+li{
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px 20px;
+}
+.container{
+  width: 800px;
+  margin: 20px auto;
+}
+.intro{
+  padding-top: 60px;
+  margin: 10px auto;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-bottom: 25px;
+}
+#profile-pic{
+  width: 250px;
+  transform: rotate(90deg);
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px #736A68;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+.btn-red:hover{
+  cursor: pointer;
+  color:rgba(256,256,256,0.5);
+}
+.card{
+  margin: 10px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.smaller-clickable{
+  width: 200px;
+}
+.smaller-clickable:hover{
+  transform: rotate(5deg) scale(1.1);
+  -webkit-transform: rotate(5deg) scale(1.1);
+  cursor: pointer;
+}
+.table-centered{
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#text-redesign{
+  opacity:0.4;
+}
+.footer, .images-nopadding{
+  padding: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
