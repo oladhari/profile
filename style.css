@@ -25,6 +25,7 @@ li{
 .container{
   width: 800px;
   margin: 20px auto;
+  margin-left: 300px;
 }
 .intro{
   padding-top: 60px;
@@ -87,6 +88,23 @@ li{
 }
 .footer, .images-nopadding{
   padding: 0px;
+}
+#sidebar{
+  width: 300px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.sidebar-content{
+  margin: 9px;
+  border: solid;
+  border-radius: 30px;
+  text-align: center;
+}
+.sidebar-content:hover{
+  background-color: white;
+  color:black;
+  cursor:pointer;
 }
 
 @media (max-width: 960px) {
